@@ -1,6 +1,6 @@
 package sayHello
 
 
-func SayHello() string {
-	return "Hello World Dunia"
+func SayHello(name string) string {
+	return "Hello World Dunia" + name
 }
